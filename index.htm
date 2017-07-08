@@ -1,10 +1,121 @@
 <!DOCTYPE html>
 <html>
-<body>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		
+		<title>test</title>
+	</head>
+	<body>
+	    <div class="wrap">
+	        <div id="header">
+				<div style="padding:0 0 5px 0; float:left">
+					<img src="tmeic.png">
+				</div>
+				
+				<div style="padding:0 0 0 0; float:right">
+					<div style="float:left; margin: 0 30px">
+						<p style="font:bold 12px sans-serif; text-align:center">Recurrent Energy</p>
+						<p style="font:bold 10px sans-serif; text-align:center">Tucson, AZ</p>
+						<p style="font:bold 10px sans-serif; text-align:center">200MW</p>
+					</div>
+					<div style="float:right">
+						<img src="re.gif">
+					</div>
+				</div>
+				
+				<div id="menu" style="clear:both"> <!-- change this to nav someday --> 
+				<ul>
+					<a href="summary.htm"><li>Summary</li></a>
+		
+					<a href="invstatus.htm"><li>Status</a>
+						<ul>
+							<li>Something Else</li>
+							<li>Inverters</li>
+						</ul>
+					</li></a>
+		
+					<a href="history.htm"><li>History
+						<ul>
+							<a href="#"><li>Today</li></a>
+							<li>Yesterday</li>
+							<li>Last Month</li>
+							<a href="#"><li>Last Year</li></a>
+						</ul>
+					</li></a>
+		
+					<a href="support.htm"><li>Support</li></a>
+					
+					<a href="test.htm"><li>Test</li></a>
+				</ul>
+				</div>
+			</div>
+	        
+	        <div class="left">Left</div>
+			
+			
+			
+			<div class="right">
+				<div class="list">
+					<ul>
+						<a href="#status"><li class="big">
+							<p class="listleft">Power Output</p>
+							<p class="listright good">1.21 GW</p>
+						</li></a>
+						
+						<a href="#history"><li>
+							<p class="listleft">Generated Today</p>
+							<p class="listright good">5.7 GWh</p>
+						</li></a>
+						
+						<a href="#status"><li>
+							<p class="listleft">Ambient Temperature</p>
+							<p class="listright good">32 &deg;C</p>
+						</li></a>
+						
+						<div class="blank"></div>
+						
+						<a href="#inverters"><li class="big">
+							<p class="listleft">Inverters Online</p>
+							<p class="listright good">22 / 22</p>
+						</li></a>
+						
+						<a href="#status"><li>
+							<p class="listleft">DC Current (Average)</p>
+							<p class="listright good">258 A</p>
+						</li></a>
+						
+						<a href="#status"><li>
+							<p class="listleft">Output AC Current</p>
+							<p class="listright good">188 A</p>
+						</li></a>
+						
+						<a href="#status"><li>
+							<p class="listleft">Inverter Temperature (Avg)</p>
+							<p class="listright bad">53 &deg;C</p>
+						</li></a>
+						
+						<a href="#status"><li>
+							<p class="listleft">Faults</p>
+							<p class="listright good">0 (4)</p>
+						</li></a>
 
-<h1>test</h1>
-
-<p>empty</p>
-
-</body>
+					</ul>
+				</div>
+			</div>
+			
+    	    <div id="footer">
+				<p class="aleft" style="width:33.3%;text-align:left">Solar Ware Inverter Monitor</p>
+				<p class="aright" style="width:33.3%;text-align:right">&copy; TMEIC 2014</p>
+				<p class="acenter" style="margin:0 auto">TMEIC</p>
+			</div>
+	    </div>
+	</body>
+	
+	
+	
+	<script>
+	//document.write(window.parent.document.getElementById("IP").value);
+</script>
+	
+	
 </html>
