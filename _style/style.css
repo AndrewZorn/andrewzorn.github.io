@@ -34,3 +34,10 @@ nav ul li a:hover {
 nav ul li a:current {
 	background-color: green;
 }
+
+
+
+
+p {
+	color: red;
+}
